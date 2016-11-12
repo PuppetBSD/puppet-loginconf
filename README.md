@@ -13,10 +13,12 @@ Configure /etc/login.conf content on FreeBSD
 
 ## Usage
 
+~~~
 class { 'loginconf':
         charset => "UTF-8",
         lang => "en_US.UTF-8",
 }
+~~~
 
 ## Limitations
 
